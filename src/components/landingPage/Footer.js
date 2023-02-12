@@ -4,8 +4,8 @@ class Footer extends React.Component {
     render() {
         return (
             <footer>
-                <div class="footer-container">
-                    <div class="footer-links">
+                <div className="footer-container">
+                    <div className="footer-links">
                         <h3>Quick Links</h3>
                         <ul>
                             <li><a href="#section1">Home</a></li>
@@ -14,14 +14,14 @@ class Footer extends React.Component {
                             <li><a href="#section4">Resume Builder</a></li>
                         </ul>
                     </div>
-                    <div class="footer-contact">
+                    <div className="footer-contact">
                         <h3>Contact Me</h3>
                         <ul>
                             <li>Email: triaki.nabil2@gmail.com</li>
                             <li>Phone: 555-555-5555</li>
                         </ul>
                     </div>
-                    <div class="footer-social">
+                    <div className="footer-social">
                         <h3>Follow Me</h3>
                         <ul>
                             <li><a href="https://github.com/triaki-nabil-prog">Github</a></li>
@@ -30,7 +30,7 @@ class Footer extends React.Component {
                         </ul>
                     </div>
                 </div>
-                <div class="copyright">
+                <div className="copyright">
                     Copyright © 2023 Practice Web Development | All Rights Reserved
                 </div>
             </footer>

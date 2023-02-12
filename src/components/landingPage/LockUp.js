@@ -5,9 +5,9 @@ class Lockup extends React.Component {
     render() {
         return (
             <div className="lockup">
-                <div class="custom-shape-divider-top-1676153749">
+                <div className="custom-shape-divider-top-1676153749">
                     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                        <path d="M892.25 114.72L0 0 0 120 1200 120 1200 0 892.25 114.72z" class="shape-fill"></path>
+                        <path d="M892.25 114.72L0 0 0 120 1200 120 1200 0 892.25 114.72z" className="shape-fill"></path>
                     </svg>
                 </div>
                 <div className="main-lockup">
@@ -18,9 +18,9 @@ class Lockup extends React.Component {
                     <button>Build my resume now</button>
                 </div>
                 <img src={userLogo} alt="user building a resume" />
-                <div class="custom-shape-divider-bottom-1676156989">
+                <div className="custom-shape-divider-bottom-1676156989">
                     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                        <path d="M892.25 114.72L0 0 0 120 1200 120 1200 0 892.25 114.72z" class="shape-fill"></path>
+                        <path d="M892.25 114.72L0 0 0 120 1200 120 1200 0 892.25 114.72z" className="shape-fill"></path>
                     </svg>
                 </div>
             </div>

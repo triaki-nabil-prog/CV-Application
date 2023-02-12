@@ -85,8 +85,9 @@ html {
     position: relative;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     min-height: 70vh;
-    padding: 30px;
+    padding: 35px;
     background-color: #CDF2FA;
 }
 
@@ -104,10 +105,10 @@ html {
 .main-lockup button {
     font-size: 1.3rem;
     font-weight: 600;
-    color:#CDF2FA ;
+    color: #CDF2FA;
+    align-self: flex-start;
     margin-top: 50px;
-    align-self: center;
-    background-color:#546658 ;
+    background-color: #546658;
     padding: 10px 40px;
 
     -webkit-box-shadow: 7px 7px 0 -3px #1B374F;
@@ -115,7 +116,7 @@ html {
     box-shadow: 7px 7px 0 -3px #1B374F;
 }
 
-.main-lockup button:hover{
+.main-lockup button:hover {
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -131,7 +132,55 @@ html {
 
 .main-lockup h3 {
     font-weight: 500;
-    color:#15665da0 ;
+    color: #15665da0;
+    width: 450px;
+}
+
+.templates {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "title title title" "executive pro simple" "executiveDesc proDesc simpledesc";
+    gap: 35px;
+    margin-bottom: 75px;
+}
+
+.templates :nth-child(1) {
+    grid-area: title;
+    padding-left: 35px;
+    color: #1B374F;
+}
+
+.templates :nth-child(2) {
+    grid-area: executive;
+    border: 1px solid #2DBEAE;
+}
+
+.templates :nth-child(3) {
+    grid-area: executiveDesc;
+    padding-left: 35px;
+    color: #1B374F;
+}
+
+.templates :nth-child(4) {
+    grid-area: pro;
+    border: 1px solid #4F91CD;
+}
+
+.templates :nth-child(5) {
+    grid-area: proDesc;
+    padding-left: 35px;
+    color: #1B374F;
+}
+
+.templates :nth-child(6) {
+    grid-area: simple;
+    border: 1px solid #468966;
+}
+
+.templates :nth-child(7) {
+    grid-area: simpledesc;
+    padding-left: 35px;
+    color: #1B374F;
 }
 
 /*  main lockup top shape divider */
@@ -176,4 +225,57 @@ html {
 
 .custom-shape-divider-bottom-1676156989 .shape-fill {
     fill: #FFFFFF;
+}
+
+.about-section {
+    padding: 35px;
+    background-color: #D9E8FF;
+    margin-bottom: 75px;
+}
+
+.about-section h1 {
+    color: #1B374F;
+    padding-bottom: 35px;
+}
+
+.about-section p {
+    color: #1b374fce;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #CDF2FA;
+    padding: 35px;
+}
+
+.action h2{
+    font-weight: 400;
+    color: #15665D;
+}
+
+.action button {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #CDF2FA;
+    margin-top: 50px;
+    background-color: #546658;
+    padding: 10px 40px;
+
+    -webkit-box-shadow: 7px 7px 0 -3px #1B374F;
+    -moz-box-shadow: 7px 7px 0 -3px #1B374F;
+    box-shadow: 7px 7px 0 -3px #1B374F;
+}
+
+.action button:hover {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background-color: #1B374F;
+    border: 2px solid #1B374F;
+
 }

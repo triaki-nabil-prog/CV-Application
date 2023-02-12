@@ -4,7 +4,7 @@ class Action extends React.Component {
     render() {
         return (
             <div className="action">
-                it's free start building your resume now
+                <h2>it's free start building your resume now</h2>
                 <button>Build</button>
             </div>
         );
