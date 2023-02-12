@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/triaki-nabil-prog/cv-application/static/css/main.28e75d62.css",
-    "main.js": "/triaki-nabil-prog/cv-application/static/js/main.860d1ff2.js",
-    "static/media/logo.png": "/triaki-nabil-prog/cv-application/static/media/logo.422073324c29242d76aa.png",
-    "static/media/executive-resume-template-1.png": "/triaki-nabil-prog/cv-application/static/media/executive-resume-template-1.18756fffa51722d1d2a2.png",
-    "static/media/simple-resume-template-1.png": "/triaki-nabil-prog/cv-application/static/media/simple-resume-template-1.e1ee8a68b55a9d79bc0a.png",
-    "static/media/professional-resume-template.png": "/triaki-nabil-prog/cv-application/static/media/professional-resume-template.a466bd5d520eae81621f.png",
-    "static/media/user.png": "/triaki-nabil-prog/cv-application/static/media/user.085c75ea4bbce5ae5887.png",
-    "static/media/github.svg": "/triaki-nabil-prog/cv-application/static/media/github.be9636d658bb785fab67d247af507ea3.svg",
-    "static/media/phone.svg": "/triaki-nabil-prog/cv-application/static/media/phone.a9cdf4df2f501852a59cf16bffd9b5b1.svg",
-    "static/media/instagram.svg": "/triaki-nabil-prog/cv-application/static/media/instagram.4418a44d09f334cd25638fe34822e43a.svg",
-    "static/media/linkedin.svg": "/triaki-nabil-prog/cv-application/static/media/linkedin.1517c5f499c91f385ec0c388ac1d3f13.svg",
-    "static/media/email.svg": "/triaki-nabil-prog/cv-application/static/media/email.4ed53f34572b5ab0ddbda960f5c178dc.svg",
-    "index.html": "/triaki-nabil-prog/cv-application/index.html",
-    "main.28e75d62.css.map": "/triaki-nabil-prog/cv-application/static/css/main.28e75d62.css.map",
-    "main.860d1ff2.js.map": "/triaki-nabil-prog/cv-application/static/js/main.860d1ff2.js.map"
+    "main.css": "/cv-application/static/css/main.28e75d62.css",
+    "main.js": "/cv-application/static/js/main.e54cd7ab.js",
+    "static/media/logo.png": "/cv-application/static/media/logo.422073324c29242d76aa.png",
+    "static/media/executive-resume-template-1.png": "/cv-application/static/media/executive-resume-template-1.18756fffa51722d1d2a2.png",
+    "static/media/simple-resume-template-1.png": "/cv-application/static/media/simple-resume-template-1.e1ee8a68b55a9d79bc0a.png",
+    "static/media/professional-resume-template.png": "/cv-application/static/media/professional-resume-template.a466bd5d520eae81621f.png",
+    "static/media/user.png": "/cv-application/static/media/user.085c75ea4bbce5ae5887.png",
+    "static/media/github.svg": "/cv-application/static/media/github.be9636d658bb785fab67d247af507ea3.svg",
+    "static/media/phone.svg": "/cv-application/static/media/phone.a9cdf4df2f501852a59cf16bffd9b5b1.svg",
+    "static/media/instagram.svg": "/cv-application/static/media/instagram.4418a44d09f334cd25638fe34822e43a.svg",
+    "static/media/linkedin.svg": "/cv-application/static/media/linkedin.1517c5f499c91f385ec0c388ac1d3f13.svg",
+    "static/media/email.svg": "/cv-application/static/media/email.4ed53f34572b5ab0ddbda960f5c178dc.svg",
+    "index.html": "/cv-application/index.html",
+    "main.28e75d62.css.map": "/cv-application/static/css/main.28e75d62.css.map",
+    "main.e54cd7ab.js.map": "/cv-application/static/js/main.e54cd7ab.js.map"
   },
   "entrypoints": [
     "static/css/main.28e75d62.css",
-    "static/js/main.860d1ff2.js"
+    "static/js/main.e54cd7ab.js"
   ]
 }
