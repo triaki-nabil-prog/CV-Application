@@ -279,3 +279,53 @@ html {
     border: 2px solid #1B374F;
 
 }
+
+footer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: #CDF2FA;
+    color:#15665D;
+}
+
+.footer-container{
+    padding: 35px 35px 10px 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container>*{
+    border-left: 1px solid #546658;
+    padding-left: 20px;
+}
+
+.copyright{
+    margin-left: 35px;
+    margin-right: 35px;
+    border-top: 1px solid #546658;
+    text-align: center;
+    color:#546658;
+}
+
+.footer-social ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-social ul img,
+.footer-contact ul img{
+    width: 30px;
+}
+
+.footer-contact ul li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-links ul li:hover {
+
+    background-color: #f9675fd5 ;
+
+}
