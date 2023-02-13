@@ -1,5 +1,6 @@
 import React from 'react';
 import userLogo from '../../assets/img/user.png';
+import { Link } from "react-router-dom";
 
 class Lockup extends React.Component {
     render() {
@@ -15,7 +16,7 @@ class Lockup extends React.Component {
                     <h3>A quick and easy way to create your professional resume.
                         Resume writing can be stressful, confusing, and time-consuming if you do it all on your own. With our Resume Maker, it’s quick, pain-free, and effective.
                         Fast and easy to use.</h3>
-                    <button>Build my resume now</button>
+                    <Link to="/Builder"><button>Build my resume now</button></Link>
                 </div>
                 <img src={userLogo} alt="user building a resume" />
                 <div className="custom-shape-divider-bottom-1676156989">

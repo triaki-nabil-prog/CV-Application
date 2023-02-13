@@ -1,0 +1,44 @@
+.Form {
+    height: 100vh;
+    padding: 35px;
+    position: relative;
+    border: 0px;
+    margin-bottom: 75px;
+    border: 2px solid #6B9080;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Preview {
+    height: 100vh;
+    padding: 35px;
+    position: relative;
+    border: 0px;
+    margin-bottom: 75px;
+    border: 2px solid #6B9080;
+    margin-top: 50px;
+}
+
+.Personal-info,
+.Experience-info{
+    padding: 20px;
+    font-size: 1.2rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    justify-items: start;
+    gap: 20px;
+    white-space:  nowrap;
+    padding-top: 35px;
+    border: 2px solid #6B9080;
+}
+.Personal-info input,
+.Experience-info input{
+    padding: 5px;
+    width: 100%;
+
+}
+textarea{
+    width: 100%;
+}
